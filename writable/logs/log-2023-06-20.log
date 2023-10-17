@@ -1,0 +1,76 @@
+CRITICAL - 2023-06-20 04:21:09 --> Undefined variable $Z3tkw2QCbo8k4ZjsQ9lxeOWsRSIgT0fc
+#0 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\app\Controllers\Auth.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\ACER\\D...', 26)
+#1 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(832): App\Controllers\Auth->validasi()
+#2 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ACER\\D...')
+#6 {main}
+CRITICAL - 2023-06-20 04:27:49 --> Cannot access offset of type string on string
+#0 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(832): App\Controllers\Auth->validasi()
+#1 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ACER\\D...')
+#5 {main}
+CRITICAL - 2023-06-20 04:29:36 --> Division by zero
+#0 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(832): App\Controllers\Hitung->matrix()
+#1 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#2 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ACER\\D...')
+#5 {main}
+ERROR - 2023-06-20 08:15:07 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-06-20 08:15:07 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\app\Controllers\Auth.php(25): CodeIgniter\BaseModel->first()
+#5 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(832): App\Controllers\Auth->validasi()
+#6 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ACER\\D...')
+#10 {main}
+ERROR - 2023-06-20 08:17:05 --> Cannot delete or update a parent row: a foreign key constraint fails (`askha`.`subkriteria`, CONSTRAINT `subkriteria_id_kriteria_foreign` FOREIGN KEY (`id_kriteria`) REFERENCES `kriteria` (`id`))
+CRITICAL - 2023-06-20 08:17:05 --> Cannot delete or update a parent row: a foreign key constraint fails (`askha`.`subkriteria`, CONSTRAINT `subkriteria_id_kriteria_foreign` FOREIGN KEY (`id_kriteria`) REFERENCES `kriteria` (`id`))
+#0 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `kr...', 0)
+#1 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kr...')
+#2 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kr...')
+#3 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kr...', Array, false)
+#4 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\app\Models\KriteriaModel.php(33): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\app\Controllers\Kriteria.php(60): App\Models\KriteriaModel->delete_kriteria('2')
+#6 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(832): App\Controllers\Kriteria->delete('2')
+#7 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#8 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ACER\\D...')
+#11 {main}
+CRITICAL - 2023-06-20 08:18:54 --> min(): Argument #1 ($value) must contain at least one element
+#0 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\app\Controllers\Hitung.php(164): min(Array)
+#1 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(832): App\Controllers\Hitung->matrix()
+#2 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#3 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ACER\\D...')
+#6 {main}
+CRITICAL - 2023-06-20 08:19:27 --> min(): Argument #1 ($value) must contain at least one element
+#0 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\app\Controllers\Hitung.php(164): min(Array)
+#1 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(832): App\Controllers\Hitung->matrix()
+#2 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#3 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ACER\\D...')
+#6 {main}
+ERROR - 2023-06-20 08:43:28 --> Table 'user' already exists
+CRITICAL - 2023-06-20 08:49:15 --> usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'usort(): Return...', 'C:\\Users\\ACER\\D...', 454)
+#1 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\app\Controllers\Hitung.php(454): usort(Array, Object(Closure))
+#2 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(832): App\Controllers\Hitung->hasil_akhir()
+#3 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#4 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ACER\\D...')
+#7 {main}

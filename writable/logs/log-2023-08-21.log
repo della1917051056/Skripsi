@@ -1,0 +1,12 @@
+CRITICAL - 2023-08-21 08:48:23 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 D:\Sistem Skripsi\Fuzzy\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 D:\Sistem Skripsi\Fuzzy\spark(45): require('D:\\Sistem Skrip...')
+#2 {main}
+CRITICAL - 2023-08-21 08:49:36 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 D:\Sistem Skripsi\Fuzzy\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 D:\Sistem Skripsi\Fuzzy\spark(45): require('D:\\Sistem Skrip...')
+#2 {main}
+CRITICAL - 2023-08-21 08:50:48 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 D:\Sistem Skripsi\Fuzzy\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 D:\Sistem Skripsi\Fuzzy\spark(45): require('D:\\Sistem Skrip...')
+#2 {main}

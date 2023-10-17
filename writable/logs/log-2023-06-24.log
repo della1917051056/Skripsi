@@ -1,0 +1,40 @@
+CRITICAL - 2023-06-24 06:26:51 --> authfilter filter must have a matching alias defined.
+#0 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authfilter')
+#1 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('authfilter', 'before')
+#2 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ACER\\D...')
+#5 {main}
+CRITICAL - 2023-06-24 06:27:28 --> authfilter filter must have a matching alias defined.
+#0 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authfilter')
+#1 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('authfilter', 'before')
+#2 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ACER\\D...')
+#5 {main}
+CRITICAL - 2023-06-24 06:27:32 --> Undefined variable $count_krit
+#0 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\app\Views\dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\ACER\\D...', 13)
+#1 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\View\View.php(210): include('C:\\Users\\ACER\\D...')
+#2 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\app\Controllers\Home.php(9): view('dashboard')
+#5 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ACER\\D...')
+#10 {main}
+CRITICAL - 2023-06-24 06:28:54 --> authfilter filter must have a matching alias defined.
+#0 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authfilter')
+#1 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('authfilter', 'before')
+#2 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ACER\\D...')
+#5 {main}
+CRITICAL - 2023-06-24 06:29:00 --> authfilter filter must have a matching alias defined.
+#0 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authfilter')
+#1 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('authfilter', 'before')
+#2 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ACER\\D...')
+#5 {main}

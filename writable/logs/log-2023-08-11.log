@@ -1,0 +1,13 @@
+ERROR - 2023-08-11 02:53:12 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-08-11 02:53:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\app\Controllers\Dashboard.php(19): CodeIgniter\Model->__call('get', Array)
+#4 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ACER\Downloads\Fuzzy-Ahp-CodeIgniter4-master\Fuzzy-Ahp-CodeIgniter4-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ACER\\D...')
+#9 {main}
